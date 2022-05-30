@@ -1,0 +1,31 @@
+{
+  "name": "shinryak-shopee-api",
+  "version": "1.0.0",
+  "description": "A nodejs wrapper for shopee open API, base on tanchonglim project (https://github.com/tanchonglim/shopee-open-api)",
+  "main": "dist/index.js",
+  "scripts": {
+    "start": "tsc && node dist/index.js",
+    "dev": "tsc-watch --noClear -p ./tsconfig.json --onSuccess \"node ./dist/test.js\"",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Shinryak",
+  "license": "ISC",
+  "devDependencies": {
+    "@types/node": "^16.4.10",
+    "dotenv": "^10.0.0",
+    "tsc-watch": "^4.4.0",
+    "tslint": "^6.1.3",
+    "typescript": "^4.3.5"
+  },
+  "dependencies": {
+    "axios": "^0.21.1",
+    "crypto": "^1.0.1",
+    "query-string": "^7.0.1"
+  },
+  "keywords": [
+    "api",
+    "shopee",
+    "wrapper"
+  ],
+  "homepage": "https://github.com/shinryak/shinryak-shopee-api"
+}
